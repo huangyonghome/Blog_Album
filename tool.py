@@ -80,7 +80,7 @@ def compress_photo():
         file_list_src = list_img_file(src_dir)
     if not directory_exists(des_dir):
         make_directory(des_dir)
-        file_list_des = list_img_file(des_dir)
+    file_list_des = list_img_file(des_dir)
 
     for i in range(len(file_list_des)):
         if file_list_des[i] in file_list_src:
